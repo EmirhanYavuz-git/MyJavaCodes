@@ -1,5 +1,3 @@
-package generics_and_enums.generics;
-
 import java.util.ArrayList;
 
 public class Main {

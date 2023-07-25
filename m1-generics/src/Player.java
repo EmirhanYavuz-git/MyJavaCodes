@@ -1,5 +1,3 @@
-package generics_and_enums.generics;
-
 public abstract class Player {
 
     private String name;
