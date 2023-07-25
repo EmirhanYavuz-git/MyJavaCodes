@@ -33,6 +33,11 @@ public class Main {
 
         calculate(MathOperations.ADD,3,1);
 
+        System.out.println("How to retrieve the constant value");
+        System.out.println(Currency.PENNY.getValue());
+        System.out.println(Currency.QUARTER.getValue());
+        System.out.println(Currency.PENNY.ordinal()); //Index number of the constant in enum
+
 
     }
 
