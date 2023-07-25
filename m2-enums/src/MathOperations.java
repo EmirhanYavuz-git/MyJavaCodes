@@ -1,6 +1,6 @@
 public enum MathOperations {
 
-    ADD, SUBSTRACT, MULTIPLY, DIVIDE
+    ADD, SUBSTRACT, MULTIPLY, DIVIDE;
 
-
+    }
 }
