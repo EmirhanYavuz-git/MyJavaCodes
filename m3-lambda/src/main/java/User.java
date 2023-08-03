@@ -4,7 +4,7 @@ import lombok.*;
 //@Getter
 //@Setter
 //@ToString
-@Data
+@Data //@Getter @Setter @ToString
 @AllArgsConstructor
 public class User {
 
