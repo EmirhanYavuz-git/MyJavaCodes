@@ -28,8 +28,24 @@ public class StreamOperations {
         System.out.println("Limit");
         list.stream()
                 .filter(i -> i % 2 == 0)
-                .limit(1)
+                .limit(2)
                 .forEach(System.out::println);
+
+        //SKIP
+        System.out.println("Skip");
+        list.stream()
+                .filter(i -> i % 2 == 0)
+                .skip(1)
+                .forEach(System.out::println);
+
+        //MAPPING
+        System.out.println("Mapping");
+        list.stream()
+                .filter(i -> i % 2 == 0)
+                .map(i -> i * 2)
+                .forEach(System.out::println);
+
+
 
 
     }
