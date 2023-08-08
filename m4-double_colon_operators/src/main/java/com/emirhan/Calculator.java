@@ -2,7 +2,7 @@ package com.emirhan;
 
 public class Calculator {
 
-    public void findSum(int x, int y){
+    public static void findSum(int x, int y){
         System.out.println("Sum" + (x+y));
     }
 
