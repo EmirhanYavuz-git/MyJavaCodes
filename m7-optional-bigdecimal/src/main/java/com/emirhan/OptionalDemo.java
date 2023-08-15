@@ -1,5 +1,7 @@
 package com.emirhan;
 
+import com.emirhan.java9.FactoryMethodsDemo;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -28,6 +30,9 @@ public class OptionalDemo {
 
         //orElse
         System.out.println(bigNumber.orElse(5));
+
+        FactoryMethodsDemo f1 = new FactoryMethodsDemo();
+
 
 
     }
