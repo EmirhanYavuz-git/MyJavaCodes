@@ -7,7 +7,7 @@ import lombok.*;
 public class Dish {
 
     private String name;
-    private boolean vegetarian;
+    private boolean isVegetarian;
     private int calories;
     private Type type;
 }
