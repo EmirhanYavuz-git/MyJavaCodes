@@ -22,5 +22,4 @@ public class MyApp {
             bird.fly();     // Does nothing for chicken
         }
     }
-    }
 }
