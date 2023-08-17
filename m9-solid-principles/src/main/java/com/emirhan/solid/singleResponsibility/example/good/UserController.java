@@ -1,0 +1,17 @@
+package com.emirhan.solid.singleResponsibility.example.good;
+
+public class UserController {
+
+    public static void getRequest(){
+        // Get the request
+        // Send this app to validation and security part
+    }
+
+    public static String createResponse(){
+        return "Response"; // For example "User is created"
+    }
+
+    public static void sendResponse(){
+        // Send user a response
+    }
+}
